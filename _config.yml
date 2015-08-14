@@ -8,7 +8,7 @@ relative_permalinks: true
 
 # Setup
 title:            Murillo Parreira
-tagline:          'A Jekyll theme'
+tagline:          'A Tech Blog'
 description:      'Um blog sobre tudo e sobre nada'
 url:              http://murparreira.github.io
 baseurl:          /
