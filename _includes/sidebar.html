@@ -1,11 +1,14 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1>
+      <div class="center-anything">
+        <img src="https://secure.gravatar.com/avatar/110888de1e96d1de936e63b6c338b47f?s=60" class="img-circle" alt="Murillo Parreira">
+      </div>
+      <h3 style="margin-top: 0">
         <a href="{{ site.baseurl }}">
           {{ site.title }}
         </a>
-      </h1>
+      </h3>
       <p class="lead">{{ site.description }}</p>
     </div>
 
@@ -26,9 +29,10 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <a class="sidebar-nav-item" target="_blank" href="{{ site.github }}">Github</a>
+      <a class="sidebar-nav-item" target="_blank" href="{{ site.twitter }}">Twitter</a>
+      <a class="sidebar-nav-item" target="_blank" href="{{ site.stackoverflow }}">Stackoverflow</a>
+      <a class="sidebar-nav-item" target="_blank" href="{{ site.instagram }}">Instagram</a>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
