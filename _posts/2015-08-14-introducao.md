@@ -5,8 +5,8 @@ title: Introdução
 
 ### Motivação
 
-Sabe aquele momento em que você se encontra travado no trabalho? O momento que a estagnação toma conta e você pensa: `Eu preciso agir, mudar, fazer algo diferente`.
+A Motivação é uma das coisas mais importantes que devemos controlar. Só conseguimos atingir nosso potencial máximo com muita motivação e persistência. Esse blog é um projeto que requer uma certa quantidade dessas características. Eu, como qualquer ser humano existente, não sou o que pode se dizer de indivíduo focado. Posso dizer que meu foco vai de **arquitetura de sistemas** a **como essa formiga está subindo no meu notebook** em questão de segundos. Manter um blog sobre programação e tecnologia é uma maneira de me manter focado e na linha.  
 
-Bem, eu admito ter chegado a esse ponto, e a maneira que encontrei de tentar sair um pouco da zona de conforto foi escrever. A ideia de ter um blog de tecnologia/esportes/comida/viagens/qualquer coisa sempre me foi atraente.
+Com certeza terei de fazer um esforço incomum, mas quero manter isso aqui atualizado com os problemas que passo no dia a dia como programador e com dicas para ajudar quem precisa.  
 
-Como agora estou envolvido em mais de um projeto fora do trabalho convencional, pago, de carteira assinada, resolvi colocar a escrita em prática. Vou aproveitar os problemas que provavelmente aparecerão nesses projetos pra discutir algumas soluções, melhores práticas e dicas do meu dia-a-dia de desenvolvedor.
+E isso aí, vamos começar.
