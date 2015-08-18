@@ -74,4 +74,14 @@ end
 <%= adicionar_titulo_ao_nome(@nome) %>
 {% endhighlight %}
 
-Além de vários outros middlewares que podem ser adicionados e usados como autenticação, log, debug, roteamento, tudo ao gosto do freguês. Além do mais existem várias gems de integração com os ORM's mais famosos do `ruby` como `ActiveRecord`, `Sequel` e `DataMapper`, basta pesquisar por sinatra e o nome do ORM.
+Além de vários outros middlewares que podem ser adicionados e usados como autenticação, log, debug, roteamento, tudo ao gosto do freguês. Além do mais existem várias gems de integração com os ORM's mais famosos do `ruby` como `ActiveRecord`, `Sequel` e `DataMapper`, basta pesquisar por sinatra e o nome do ORM.  
+
+Links de ajuda: 
+
+[Introdução ao Sinatra do próprio site](http://www.sinatrarb.com/intro.html)  
+
+[Boas práticas com o Sinatra](http://blog.carbonfive.com/2013/06/24/sinatra-best-practices-part-one/)  
+
+[Rack](http://rack.github.io/)  
+
+[O que é Rack?](http://southdesign.de/blog/rack.html)  
