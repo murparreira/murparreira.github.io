@@ -2,9 +2,8 @@
 layout: page
 title: Sobre mim
 ---
-Em um mundo ideal, todo mundo que sabe sobre um assunto escreve sobre ele. Essa é a minha tentativa de partilhar informações com o mundo, mesmo que eu provavelmente não saiba muita coisa.
-
-**"Cientista"** da computação formado pela Universidade Federal de Goiás (**UFG**).
+Olá, meu nome é Murillo. Sou goiano, formado em Ciências da Computação pela Universidade Federal de Goiás (**UFG**). Nesse espaço você vai encontrar informações sobre programação principalmente em `Ruby`.  
+Esse blog é uma tentativa de fazer com que eu aprenda a escrever melhor e sobre coisas que eu gosto.
 
 Ruby, Javascript e esportes. (Não necessariamente nessa ordem)
 
