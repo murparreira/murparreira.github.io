@@ -5,7 +5,7 @@ title: Menus dinâmicos usando content_for e yield
 
 Toda applicação web precisa de um menu, seja ele lateral, fixo no topo, escondido, etc. A navegação entre os módulos e componentes do sistema deve ser fluida e sem complicações. Geralmente temos um código de layout assim, onde `nav` é a parte do menu lateral:  
 
-{% highlight html %}
+{% highlight erb %}
 <!DOCTYPE html>
 <html>
 <head></head>
@@ -37,7 +37,7 @@ Se esse é o layout da aplicação, ela estará visível em todas as telas. Mas 
 
 Quando colocamos uma parte do código HTML dentro de um bloco `content_for` e damos um nome a ele:  
 
-{% highlight html %}
+{% highlight erb %}
 <% content_for :menu_lateral do %>
   <nav class="navbar-default navbar-static-side" role="navigation">
     <div class="sidebar-collapse">
@@ -52,7 +52,7 @@ Quando colocamos uma parte do código HTML dentro de um bloco `content_for` e da
 
 Marcamos esse pedaço de código com a tag `menu_lateral`. Portanto podemos invocar no layout esse pedaço de HTML usando `yield`:  
 
-{% highlight html %}
+{% highlight erb %}
 <!DOCTYPE html>
 <html>
 <head></head>
@@ -71,7 +71,7 @@ Marcamos esse pedaço de código com a tag `menu_lateral`. Portanto podemos invo
 
 Dessa maneira, em diferentes views podemos definir diferentes menus laterais. Mas aí você se pergunta: **E se eu tiver um menu lateral padrão? Que sempre será renderizado se a view não definir um bloco de menu.**. Como vimos na documentação, temos um método chamado `content_for?` que verifica se existe algum código a ser inserido com a tag e retorna true ou false. Então adicionamos uma checagem com um menu padrão:  
 
-{% highlight html %}
+{% highlight erb %}
 <!DOCTYPE html>
 <html>
 <head></head>
